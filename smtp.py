@@ -6,9 +6,9 @@ from smtplib import SMTP
 
 msg=MIMEText('hello,come from python ...','plain','utf-8')
 
-from_addr='18705778952@163.com'
-passwd='asdf1234'
-to_addr='1197643508@qq.com'
+from_addr='xxxx@163.com'
+passwd='......'
+to_addr='xxxxxx@qq.com'
 smtp_server='smtp.163.com'
 
 smtp=SMTP(smtp_server,25)
